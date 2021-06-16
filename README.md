@@ -1,6 +1,6 @@
 # O-Club_Backend
 
-# Project title
+# eLocus
 
 ## Requirements
 
