@@ -1,6 +1,6 @@
 # O-Club_Backend
 
-# PROJECT BLAH BLAH
+# Project title
 
 ## Requirements
 
