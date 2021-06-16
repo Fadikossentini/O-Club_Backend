@@ -1,16 +1,16 @@
-const express = require('express');
-const cors = require('cors');
-const bodyParser = require('body-parser');
-const mysql = require('mysql');
-const salle = require('./controllers/salle');
-const club = require('./controllers/club');
-const reservation = require('./controllers/reservation');
-const authentification = require('./controllers/authentification');
+const express = require("express");
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const mysql = require("mysql");
+const salle = require("./back/controllers/salle");
+const club = require("./back/controllers/club");
+const reservation = require("./back/controllers/reservation");
+const authentification = require("./back/controllers/authentification");
 const connection = mysql.createConnection({
-  host     : '52.166.172.40',
-  user     : 'O_CLUB',
-  password : 'oclub',
-  database : 'O_CLUB'
+  host: "127.0.0.1",
+  user: "root",
+  password: "fedi",
+  database: "projet",
 });
 
 connection.connect();

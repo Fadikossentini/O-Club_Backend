@@ -37,7 +37,7 @@ CREATE TABLE `reservation` (
   KEY `ID_TYPE_idx` (`ID_TYPE`),
   CONSTRAINT `ID_CLUB` FOREIGN KEY (`ID_CLUB`) REFERENCES `club` (`ID_CLUB`),
   CONSTRAINT `ID_TYPE` FOREIGN KEY (`ID_TYPE`) REFERENCES `salle` (`ID_TYPE`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 /*COLLATE=utf8mb4_0900_ai_ci*/;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --

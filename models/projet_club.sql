@@ -35,7 +35,7 @@ CREATE TABLE `club` (
   UNIQUE KEY `NOM_UNIQUE` (`NOM`),
   UNIQUE KEY `EMAIL_UNIQUE` (`EMAIL`),
   UNIQUE KEY `TEL_UNIQUE` (`TEL`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 /*COLLATE=utf8mb4_0900_ai_ci*/;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
