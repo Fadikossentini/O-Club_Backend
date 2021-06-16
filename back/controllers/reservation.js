@@ -46,13 +46,14 @@ function createRouter(db) {
 
   router.post("/api/reservation", function (req, res, next) {
     db.query(
-      "insert into reservation values  (0,?,?,?,?,?,?,?)",
+      "insert into reservation values  (8,?,?,?,?,?,?,?,?)",
       [
         req.body.date_soumission,
         req.body.date_debut,
         req.body.date_fin,
         req.body.etat,
         req.body.nom_event,
+        req.body.type_event,
         req.body.id_club,
         req.body.id_type,
       ],
